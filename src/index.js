@@ -25,31 +25,12 @@ injectGlobal`
 `;
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  min-height: 100vh;
-
   padding: 24px;
-`;
-
-const FloatingButton = styled.div`
-  margin-top: auto;
-  margin-left: auto;
-
-  img {
-    display: block;
-  }
 `;
 
 const App = () => (
   <Wrapper>
     <Tabs />
-    <FloatingButton>
-      <a target="_blank" href="https://codesandbox.io/s/ywmnpxqwl9">
-        <img alt="Edit new" src="https://codesandbox.io/static/img/play-codesandbox.svg" />
-      </a>
-    </FloatingButton>
   </Wrapper>
 );
 
